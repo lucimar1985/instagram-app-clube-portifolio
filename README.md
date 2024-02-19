@@ -5,7 +5,8 @@ Projeto feito com React e javascript
 Utilizado
 Vscode, Yarn, javascript e o Vite.
 utilizando api's
-
+###
+<div align="left">
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" alt="javascript logo"  />
   <img width="12" />
   
@@ -20,5 +21,5 @@ utilizando api's
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" height="40" alt="vscode logo"  />
 </div>
-
+###
 <p align="center">Portifolio Em Breve Adicionado ao portifolio</p>
