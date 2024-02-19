@@ -1,7 +1,7 @@
 # Instagram app Projeto clube portifolio - DevClub
 
 Projeto feito com React e javascript.
-Com estruturação de pastas, para facil manutenção e para que as funções estejão no lugar certo,
+Com estruturação de pastas, para facil manutenção e para que as funções estejam no lugar certo,
 conceitos de componentes genericos(flex) (Typography) (props) probriedade integrada aos components de forma inline
 conceitos de (theme), claro ou escuro.
 Deploy
