@@ -1,4 +1,4 @@
-# Instagram app Projeto clube portifolio - DevClub
+# Instagram app Projeto clube portifolio - DevClub -Não responsivo
 
 Projeto feito com React e javascript.
 Com estruturação de pastas, para facil manutenção e para que as funções estejam no lugar certo,
