@@ -22,4 +22,4 @@ utilizando api's
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" height="40" alt="vscode logo"  />
 </div>
 
-<p align="center">Portifolio Em Breve Adicionado ao portifolio</p>
+<p align="center">Breve Adicionado ao portifolio</p>
