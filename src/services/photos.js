@@ -1,27 +1,26 @@
-import { createClient } from 'pexels';
-
-const apiKey = import.meta.env.VITE_KEY_API_PEXELS;
-const client = createClient(apiKey);
-
 export const getPhotos = async (photosPerPage, callback) => {
-
-
-    
+    const apiKey = import.meta.env.VITE_KEY_API_PEXELS;
+    const baseUrl = "https://api.pexels.com/v1/curated";
+  
+    let response = [];
     try {
-        const response = await client.photos.curated({
-            page: 1,
-            per_page: photosPerPage,
-        });
-        return response.photos;
+      response = await fetch(`${baseUrl}?page=1&per_page=${photosPerPage}`, {
+        method: "get",
+        headers: new Headers({
+          Authorization: apiKey,
+        }),
+      })
+        .then((response) => response.json())
+        .then((data) => data.photos);
+  
+      return response;
     } catch (error) {
-        console.error('Erro ao buscar fotos:', error);
-        return null; // Retornar null ou tratar o erro de acordo com a necessidade
+      console.log(error);
     } finally {
-        if (callback) {
-            callback(); // Chamar a função de callback se fornecida
-        }
+      callback();
     }
-    
-};
-
+  
+    return response;
+  };
+  
 
