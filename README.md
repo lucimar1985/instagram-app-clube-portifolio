@@ -4,6 +4,8 @@ Projeto feito com React e javascript.
 Com estruturação de pastas, para facil manutenção e para que as funções estejam no lugar certo,
 conceitos de componentes genericos(flex) (Typography) (props) probriedade integrada aos components de forma inline
 conceitos de (theme), claro ou escuro.
+Variaveis de ambiente, Icons, loading.
+<br>
 Função de callback, para requisição de api, estuturação camada de service.
 <br>
 Resolução de problemas, dentre outros.
